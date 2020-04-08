@@ -30,6 +30,8 @@ footer {
 .button {
     cursor: pointer;
     text-align: center;
+    height: auto;
+    width: 100px;
 }
 
 
