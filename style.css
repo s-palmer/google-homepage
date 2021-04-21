@@ -1,4 +1,25 @@
-/* #search-box {
+/* New CSS */
+
+/* Header */
+
+
+/* Body */
+
+body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Footer */
+
+
+
+/* Old CSS */
+
+/*
+    #search-box {
     display: block;
     height: 100px;
     width: 100px;
@@ -7,75 +28,21 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
-    /* margin-top: -50px;
-    margin-left: -50px; */
+    }
 
-}
+    /* 
+    margin-top: -50px;
+    margin-left: -50px; 
+    */ 
+
+/* Header CSS */
+
+/*
 
 #logo {
 	height: 95px; width: 269px;
 	display: block;
 	margin: 130px auto 24px auto;
-}
-
-#search-box, form {
-	height: 30px; width: 576px;
-	display: block;
-	margin: 0 auto 0 auto;
-}
-
-.buttons {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-footer {
-    background-color:#F2F2F2;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    height: auto;
-    width: 100%;
-}
-
-.input {
-	height: 24px; width: 560px;
-	display: block;
-	margin: 0 auto;
-	border: none;
-	font-size: 16px;
-}
-
-.buttons {
-    cursor: pointer;
-    text-align: center;
-    height: auto;
-    position: relative;
-	width: 300px;
-	margin: 0 auto 0 auto;
-}
-
-.footer-list {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-.footer-item-left {
-    display: inline;
-    float: left;
-    display: block;
-    padding: 8px;
-    background-color: #F2F2F2;
-}
-
-.footer-item-right {
-    display: inline;
-    float: right;
-    display: block;
-    padding: 8px;
-    background-color: #F2F2F2;
 }
 
 header {
@@ -107,6 +74,49 @@ header {
 	background-image: url("pp.PNG");
 	display: inline-block;
 }
+
+*/
+
+/* Footer CSS */
+
+/*
+
+footer {
+    background-color:#F2F2F2;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: auto;
+    width: 100%;
+}
+
+.footer-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-item-left {
+    display: inline;
+    float: left;
+    display: block;
+    padding: 8px;
+    background-color: #F2F2F2;
+}
+
+.footer-item-right {
+    display: inline;
+    float: right;
+    display: block;
+    padding: 8px;
+    background-color: #F2F2F2;
+}
+
+*/
+
+/* Body CSS */
+
+/*
 
 #search_button, #lucky_button {
 	position: relative;
@@ -144,3 +154,36 @@ header {
 	height: 21px; width: 110px;
 	margin: 16px 8px;
 }
+
+#search-box, form {
+	height: 30px; width: 576px;
+	display: block;
+	margin: 0 auto 0 auto;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.input {
+	height: 24px; width: 560px;
+	display: block;
+	margin: 0 auto;
+	border: none;
+	font-size: 16px;
+}
+
+.buttons {
+    cursor: pointer;
+    text-align: center;
+    height: auto;
+    position: relative;
+	width: 300px;
+	margin: 0 auto 0 auto;
+}
+
+
+*/
