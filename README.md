@@ -4,7 +4,7 @@ From The Odin Project's [curriculum](http://www.theodinproject.com/courses/web-d
 
 Once I have completed the project satisfactorily, I will come back here and list the skills that I have learned.
 
-Technologies used:
+Skills used:
 - HTML
 - CSS
 - Flexbox
