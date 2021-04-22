@@ -5,6 +5,10 @@
 
 /* Body */
 
+html {
+    font-family: 'Open Sans', 'Arial', sans-serif;
+}
+
 body {
     display: flex;
     flex-direction: row;
@@ -37,13 +41,7 @@ body {
 
 /* Header CSS */
 
-/*
 
-#logo {
-	height: 95px; width: 269px;
-	display: block;
-	margin: 130px auto 24px auto;
-}
 
 header {
     background-color: #FFFFFF;
@@ -61,6 +59,15 @@ header {
     padding: 8px;
 }
 
+a.header-link-right {
+    color: #242424;
+    text-decoration: none;
+}
+
+a.header-link-right:hover, a.header-link-right:focus {
+    text-decoration: underline;
+}
+
 #header-icon-right {
 	position: relative;
 	height: 34px; width: 119px;
@@ -75,11 +82,9 @@ header {
 	display: inline-block;
 }
 
-*/
 
 /* Footer CSS */
 
-/*
 
 footer {
     background-color:#F2F2F2;
@@ -102,6 +107,7 @@ footer {
     display: block;
     padding: 8px;
     background-color: #F2F2F2;
+
 }
 
 .footer-item-right {
@@ -110,13 +116,31 @@ footer {
     display: block;
     padding: 8px;
     background-color: #F2F2F2;
+
 }
 
-*/
+a.footer-link {
+    text-decoration: none;
+    color: #a7aaad;
+    font-weight: 400;
+    font-size: 0.9em;
+}
+
+a.footer-link:hover, a.footer-link:focus {
+    text-decoration: underline;
+} 
+
+
 
 /* Body CSS */
 
 /*
+
+#main-logo {
+	height: 95px; width: 269px;
+	display: block;
+	margin: 130px auto 24px auto;
+}
 
 #search_button, #lucky_button {
 	position: relative;
