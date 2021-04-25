@@ -2,50 +2,51 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="app.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
     <title>Google</title>
 </head>
 
 <header>
-    <div class="header">
-        <ul class="header-list">
-            <li class="header-item-right"><a class="header-link-right" href="#">+Sergei</a></li>
-            <li class="header-item-right"><a class="header-link-right" href="#">Gmail</a></li>
-            <li class="header-item-right"><a class="header-link-right" href="#">Images</a></li>
-            <li class="header-item-right">
-                <img id="header-icon-right" src="header-icons.png">
-            </li>
-            <li class="header-item-right">
-                <div id="profile-picture"></div>
-            </li>
-        </ul>
-    </div>
+    <nav>
+        <div class="navbar">
+            <ul class="nav-list">
+                <li class="nav-item-right">
+                    <img id="profile-pic" src="pp.png">
+                </li>
+                <li class="nav-item-right">
+                    <img id="header-icon-right" src="menu-new.PNG">
+                </li>
+                <li class="nav-item-right link"><a class="nav-link-right" href="#">Gmail</a></li>
+                <li class="nav-item-right link"><a class="nav-link-right" href="#">Images</a></li>
+            </ul>
+        </div>
+    </nav>
 </header>
 
-<!--
-
 <body>
-    <div>
-        <img id="main-logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
-            alt="Google Logo">
-    </div>
+    <div class="main-content">
+        <div id="logo">
+            <img id="main-logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+                alt="Google Logo">
+        </div>
 
-    <div id="search-box">
-        <form action="#" method="GET">
-            <div><input type="text" placeholder=""></div>
-            <div><img id="mic" src="mic.png" /></div>
-        </form>
-    </div>
+        <div id="search-box">
+            <form action="#" method="GET">
+                <div class="search-input"><input type="text" placeholder=""></div>
+            </form>
+            <div class="mic-logo"><img id="mic" src="mic.png" /></div>
+        </div>
 
-    <div class="buttons">
-        <div id="search_button">Google Search</div>
-        <div id="lucky_button">I'm Feeling Lucky</div>
-    </div>
+        <div id="buttons">
+            <div id="search_button">Google Search</div>
+            <div id="lucky_button">I'm Feeling Lucky</div>
+        </div>
 
+    </div>
 </body>
--->
+
 <footer>
     <ul class="footer-list">
         <li class="footer-item-left"><a class="footer-link" href="#">Advertising</a></li>

@@ -1,0 +1,178 @@
+html {
+  font-family: "Open Sans", "Arial", sans-serif;
+}
+
+header {
+  border: solid 1px red;
+}
+
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row-reverse;
+  align-content: center;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 1em;
+}
+
+.nav-item-right {
+  padding: 5px;
+}
+
+a.nav-link-right {
+  color: #242424;
+  text-decoration: none;
+}
+
+a.nav-link-right:hover,
+a.nav-link-right:focus {
+  text-decoration: underline;
+}
+
+#profile-pic {
+  border-radius: 50%;
+  height: 34px;
+}
+
+#header-icon-right {
+  height: 34px;
+}
+
+.main-content {
+  width: 1000px;
+  height: 500px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -250px;
+  margin-left: -500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-content {
+  border: solid 1px green;
+}
+
+#search-box {
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-input {
+    display: inline;
+    border-radius: 50%;
+}
+
+.mic-logo {
+    display: inline;
+}
+
+#buttons {
+  display: flex;
+  width: 325px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#search_button,
+#lucky_button {
+  background-color: #f4f4f4;
+  color: #444;
+  width: 150px;
+  border: 1px solid #dcdcdc;
+  border-radius: 4px;
+  font-size: 13px;
+  font-weight: 600;
+  text-align: center;
+  padding: 8px 0;
+}
+
+#search_button:hover {
+  border-bottom: 1px solid #b0b0b0;
+  border-color: #b0b0b0;
+  /* border-left: 2px solid #b0b0b0;
+	margin-left: 31px; */
+}
+
+#lucky_button:hover {
+  border-bottom: 1px solid #b0b0b0;
+  border-color: #b0b0b0;
+  /*
+    border-left: 2px solid #b0b0b0;
+	margin-left: 7px; */
+}
+
+/*
+
+#search_button {
+	height: 21px; width: 98px;
+	margin: 16px 8px 0px 32px;
+}
+
+#lucky_button {
+	height: 21px; width: 110px;
+	margin: 16px 8px;
+}
+
+#search_button, #lucky_button {
+    cursor: pointer;
+    text-align: center;
+    height: auto;
+    position: relative;
+	width: 200px;
+	margin: 0 auto 0 auto;
+}
+
+*/
+
+footer {
+  border: solid 1px blue;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-color: #f2f2f2;
+  font-size: 0.8em;
+}
+
+.footer-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-item-left,
+.footer-item-right {
+  display: block;
+  padding: 5px;
+}
+
+.footer-item-left {
+  float: left;
+}
+
+.footer-item-right {
+  float: right;
+}
+
+a.footer-link {
+  text-decoration: none;
+  color: #a7aaad;
+  font-weight: 400;
+  font-size: 0.9em;
+}
+
+a.footer-link:hover,
+a.footer-link:focus {
+  text-decoration: underline;
+}
